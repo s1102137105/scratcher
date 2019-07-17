@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>歡迎光臨</title>
+
+    <link href="js/1.js" rel="stylesheet">
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" media="(max-width:490px)" href="a.css">
+    <link rel="stylesheet" media="(min-width:491px) and (max-width:920px) and (min-height:351px)" href="b.css">
+    <link rel="stylesheet" media="(min-width:921px)" href="c.css">
+    <link rel="stylesheet" media="(max-height:350px) and (orientation:landscape)" href="d.css">
+
+
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body id="page-top" class="index" >
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#page-top"><img src="img/logo.gif"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" onload="accoutclick()">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">展覽介紹</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">產品介紹</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#cartModal1" data-toggle="modal">
+                            <span class="glyphicon glyphicon-shopping-cart">購物車<span id="result">(0)</span></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#map">地理位置</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/清明上河圖.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Welcome</span>
+                        <hr class="star-light">
+                        <span class="skills">National Palace Museum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>展覽介紹</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Article/A1.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Article/A2.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Article/A3.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Article/A4.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Article/A5.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/Article/A6.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>展品介紹</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 about-item">
+                    <h3>松花石蟠螭硯</h3>
+                    <a href="#productModal1" class="about-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/product/p1-1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <br>
+                    <a href="#productcamera" class="about-link" data-toggle="modal" data-title="tooltip" title="掃描QR Code">
+                        <span class="glyphicon glyphicon-qrcode fa-3x"></span>
+                    </a>
+                </div>
+                <div class="col-sm-4 about-item">
+                    <h3>玉螭紋觿</h3>
+                    <a href="#productModal2" class="about-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/product/p2-1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <br>
+                    <a href="#productcamera" class="about-link" data-toggle="modal" data-title="tooltip" title="掃描QR Code">
+                        <span class="glyphicon glyphicon-qrcode fa-3x"></span>
+                    </a>
+                </div>
+                <div class="col-sm-4 about-item">
+                    <h3>白陶鬶</h3>
+                    <a href="#productModal3" class="about-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/product/p3-1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <br>
+                    <a href="#productcamera" class="about-link" data-toggle="modal" data-title="tooltip" title="掃描QR Code">
+                        <span class="glyphicon glyphicon-qrcode fa-3x"></span>
+                    </a>
+                </div>
+                
+            </div>
+            
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section  購物車-->
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>購物車</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#cartModal1" data-toggle="modal">
+                        
+                                <i class="fa fa-search-plus fa-3x"></i>確認
+                    </a> -->
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    
+               <!-- </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer -->
+    <section id="map">
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>地理位置</h3>
+                        <p>11143台北市士林區至善路二段221號</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/npmgov/" class="btn-social btn-outline" target="blank"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3></h3>
+                        <p><a href="http://startbootstrap.com"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        加一 &copy; My Website 2016  APP作業
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </section>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+<!-- 展覽說明 -->
+            <!-- 造型與美感－中國繪畫選粹 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>造型與美感－中國繪畫選粹</h3>
+                            <hr class="star-primary">
+                            <img src="img/Article/A1.jpg" class="img-responsive img-centered" alt="">
+                            <h5 style="color:red">展覽說明</h5>
+                            <div class="article">
+                                <p>中國繪畫的發展就宛如一部精彩的交響樂章，藉助人物、花卉翎毛、山水等畫科中的典範風格組成幾項重要主題，並在歷史的脈絡中賦予變奏。</p>
+                                <p>宋代(960－1279)山水畫中的范寬、郭熙、李唐都在既有的典範基礎上推陳出新，成為新的典範。宮廷畫院在宋代藝術帝王的倡導下，發展出空前盛況。另外，宋代文人也將藝術的表現概念擴展到「形似」以外的範疇，文人畫開始成為一種新的風格。元代(1279－1368)的文人畫則由趙孟頫、元四大家（黃公望、吳鎮、倪瓚、王蒙）等人以復古為標的，並因復古而有更為多元的風格表現。這些風格逐漸成為繪畫發展過程中的重要典型，在明清以後仍維持著持續的影響力，此次選萃展即是以明清山水畫為核心。</p>
+                                <p>明代(1368－1644)以後，不同地區的風格特色，成為藝術發展脈絡中的重要環節。蘇州的「吳派」從元四大家演化出優雅的文人風格，以浙閩畫家為主的「浙派」則自宮廷繪畫中脫胎，將南宋的典範變成粗放的水墨。松江的董其昌與稍後的王時敏、王鑑、王翬和王原祁等人又接著在對古代典範的「集大成」中，以筆墨再造自然，形成影響深遠的「正統派」。</p>
+                                <p>清代(1644－1911)帝王在推崇「正統派」作風之餘，也包容歐洲傳教士所帶來的西洋畫法，立體與透視成為對古老典範的新詮釋。宮廷之外的揚州則有標榜著「怪、奇」的一批畫家在高度商業化的市場中活躍。他們的筆墨與形象針對「非正統」的典範而發，而自己也成為後世追求變革的典範依據。</p>
+                            </div>
+                            
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <!-- 藝域漫遊—郎世寧新媒體藝術展 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>藝域漫遊—郎世寧新媒體藝術展</h3>
+                           
+
+                            <hr class="star-primary">
+                            <img src="img/Article/A2.jpg" class="img-responsive img-centered" alt="">
+                            <h5 style="color:red">展覽概述</h5>
+                            <div class="article">
+                            <p>「藝域漫遊——郎世寧新媒體藝術展」以虛實結合的手法，展現清代宮廷畫家郎世寧（1688-1766）的傑作。郎世寧本為到中國傳教的意大利耶穌會傳教士，後成為清宮廷畫家，歷經康熙、雍正、乾隆三朝。其畫藝高超，作品影響深遠。</p>
+                             
+                            <p>展覽由香港城市大學與國立故宮博物院合辦，是臺灣與香港文化交流的重要里程碑。展覽結合歷史藝術珍品、新媒體及互動藝術，為觀眾創造多重感官的精彩觀賞體驗。郎世寧傑作的原尺寸摹本，與作品的數碼技術創新演繹並置，為郎世寧結合東西方美學的畫作譜出新意，提供嶄新欣賞角度。</p>
+                             
+                            <p>郎世寧之類的耶穌會傳教士踏足北京和其他中國大城市，除了引入新的藝術實踐，也促進了東西方在哲學、科學、藝術等知識領域的交流。「從郎世寧看東西方交流」這一部分展出的十七至二十世紀的陶瓷、版畫、畫卷、出版物等，呈現了歐洲耶穌會傳教士與明末清朝宮廷之間的知識與藝術交流情況。</p>
+                             
+                            <p>這次展覽融文化遺產、媒體藝術及科技於一體，精彩豐富、引人深思，為數碼年代公共博物館未來的參觀體驗樹立了標準。</p>
+                            </div>
+                            
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <!-- 南北故宮　國寶薈萃 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>南北故宮　國寶薈萃</h3>
+                            <hr class="star-primary">
+                            <img src="img/Article/A3.jpg" class="img-responsive img-centered" alt="">
+                            <h5 style="color:red">展覽說明</h5>
+                            <div class="article">
+                                <p>南亞次大陸上的恆河，孕育出淵遠流長的印度文化。許多影響亞洲乃至於全世界發展的重要宗教，如印度教、佛教、錫克教等，均在此大河文明中誕生、發展、繁榮。隨著宗教、人群及物品的流動，印度文化的影響擴展到東亞、西亞及東南亞等地區，並在各地衍生、變化，也為文化藝術帶來豐沛靈感。</p>
+ 
+                                <p>本展展出〈十世紀印度喀什米爾或喜馬查邦鄔瑪—大自在天〉及〈十五世紀越南青花加彩猴王〉，藉由這兩件精彩絕倫又風格特異的藝術品，期待觀眾感受印度及越南藝術、文學及宗教的魅力，瞭解南亞與東南亞之間密切交流的火花，體驗多元的亞洲風貌！</p>
+                            </div>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <!-- 唵嘛呢叭咪吽—院藏藏傳佛教文物特展 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>唵嘛呢叭咪吽—院藏藏傳佛教文物特展</h3>
+                            <hr class="star-primary">
+                            <img src="img/Article/A4.jpg" class="img-responsive img-centered" alt="">
+                            <h5 style="color:red">展覽說明</h5>
+                            <div class="article">
+                                <p>「唵嘛呢叭咪吽」，觀音菩薩的六字大明咒，在藏傳佛教傳播的地區，幾乎無人不知，無人不曉，是藏傳佛教的一個重要標誌。藏傳佛教形成於藏族地區，並以藏語文為主要施教、修學工具，與漢傳佛教並稱為大乘佛教的兩大支派。此派主張大小乘兼容，並以大乘為主，顯密結合，先顯後密，追求即身成佛。</p>
+
+                                <p>元朝建立後，忽必烈尊崇喇嘛，藏傳佛教傳入中原，歷明、清兩代，或出於政治的因素，或宗教的信仰，上自皇室王公，下至黎民百姓，禮敬喇嘛，皈依接受灌頂，塑繪尊像，誦咒觀想修行，興寺建塔，蔚然成風，而刊譯藏傳佛教典籍，更是國家一大佛事。</p>
+
+                                <p>本展覽以藏文《龍藏經》為主要展件，搭配其他典籍、書畫、法器、金銅佛等文物，分為六單元展出：第一單元「無二至寶」展出《龍藏經》之裝幀配件；第二單元「三轉法輪」展出《龍藏經》經文內容；第三單元「譯傳四海」呈現藏文佛典所依據或再譯之漢、滿、蒙等文字佛典：第四單元「漢地藏音」展出收錄藏傳佛教經咒的漢文圖書；第五單元「五部聖眾」以《龍藏經》經板圖像暨金銅佛、法器及繪畫，分成諸佛、菩薩、護法等五大類展示；第六單元「卓尼留珍」以複製之卓尼版《甘珠爾》布置情境式藏傳佛教藏經閣。</p>
+
+                                <p>本院所藏藏傳佛教文物非常豐富珍貴，此次展出係擇其精尤作選樣陳列，希望觀眾能從中一覽其特色。</p>
+                            </div>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <!-- 典藏新紀元－近現代名家對聯展 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>典藏新紀元－近現代名家對聯展</h3>
+                            <hr class="star-primary">
+                            <img src="img/Article/A5.jpg" class="img-responsive img-centered" alt="">
+                            <h5 style="color:red">展覽說明</h5>
+                            <div class="article">
+                                <p>故宮豐富的書畫典藏，洵非一日之功。本院成立之初，所藏書畫承自清宮內府舊藏，寶有歷來宮廷累積的精品。民國三十八年（1949）國民政府播遷來臺之後，持續擴充典藏，除了積極購藏書畫文物外，並接受社會各界賢達、藏家及機關團體之捐贈，以紮實永續發展的基礎。數十年來，新進入藏的書畫作品，為數已達六千餘件，足稱質量皆美。</p>
+ 
+                                <p>藏品的擴充，顯示故宮的營運與時代接軌，得民間為助力，共同深耕中華文化，步步朝向新紀元邁進。回首過往歷程，對社會各界不計私有、慷慨捐贈的義行衷心感念，為此特別擇定專室，以「典藏新紀元」為題，陸續展示歷來捐贈入藏，並且會同來臺後購藏，以及委託寄存的書畫合併展出，彰顯政府和民間同心合力的成果。</p>
+                                 
+                                <p>對聯源起於五代，由吉祥語對句，發展為以紙書寫成上下兩聯。隨著時代演變，文人競以詩歌和駢文中的對仗技巧，精心製作聯句，配以優美書法，懸諸廳堂齋室壁間，成為書法表現的特殊形制。又因對聯原多懸於楹柱，故亦稱「楹聯」。本次展覽延續「典藏新紀元」的主題，展陳近年來入藏之二十世紀對聯精品，共五十件，援以欣賞諸家各擅勝場，特色鮮明的神韻風采。這些新添書蹟，不但大幅拓展了故宮既有收藏的範疇與時間縱軸，加以內容豐富多元，充分反映出歷史演變的軌跡，更為故宮書畫典藏開締造新局。</p>
+                            </div>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <!-- 秦‧俑—秦文化與兵馬俑特展 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>秦‧俑—秦文化與兵馬俑特展</h3>
+                            <hr class="star-primary">
+                            <img src="img/Article/A6.jpg" class="img-responsive img-centered" alt="">
+                            <h5 style="color:red">展覽說明</h5>
+                            <div class="article">
+                                <p>在中國歷史上，秦代是最早的帝制皇朝。秦人源於東夷，遷於隴東，臣于周室，侯於關中，收周餘民，霸於西戎，很早就開始不斷熔鑄東西方種族和文化。從歷史發展來看，秦的貴族與平民都不是單一的民族，早期先受周文化極深的影響，至春秋晚期後，漸漸融合戎人文化，最終鑄成秦人特有的制度和文明，影響至今。</p>
+ 
+
+                                <p>最初秦的政治地位不高，秦非子是周王朝附庸，秦仲為周大夫。周衰秦興，襄公始封侯，穆公稱霸，惠文稱王，合縱連橫而戰勝天下，最終秦始皇稱帝，這是秦的政治影響逐漸擴大的過程。</p>
+                                 
+
+                                <p>西周時代的秦在西陲為周王室養馬，兩周之際進入關中，開始農戰結合，至秦孝公用商鞅，開阡陌，內務耕稼，而惠文王北併上郡，又南兼漢中，西舉巴蜀，東割諸侯膏腴之地，軍事製造業也因此大興，為秦問鼎中原打下了堅實基礎。</p>
+                                 
+
+                                <p>秦國繼承西周制度，漸興於春秋，而在春秋、戰國之際有所衰落，迨至商鞅變法而重振，貴族制度由此式微，招納列國賢士，並制定軍功爵制和刑徒制，削廢封邑而創立郡縣，設計了一整套從中央三公九卿到郡縣的守、尉、監的官僚和文書制度，實行編戶齊民，最終實現了與帝國相適應的集權體制。</p>
+                                 
+
+                                <p>「九都八遷」是秦人東進的過程。從最初僅有西犬丘開始，由隴入陜，逐戎繼周，春秋都雍城，戰國都咸陽，固守關中，最終東併六國，成就帝業。這蠶食鯨吞的過程，在歷年甘肅禮縣、清水、甘谷、陝西寶雞、平陽、鳳翔、涇陽、臨潼、咸陽等地的考古工作中，有大量的遺跡和遺物可為佐證。</p>
+                                 
+
+                                <p>秦的宗教和文化制度，一直與秦民族融合和秦封域擴張相適應。從襄公作西畤文公作鄜畤開始，秦在西方祀五帝，有眾多的祠畤建築。戰國時惠文王祭華山，昭王郊祭上帝，秦始皇東巡封禪，海上尋仙，在東方祭祀天、地、兵、陰、陽、日、月、四時八神。這些國家宗教活動，都是為了統制秦帝國思想的舉措。</p>
+                                 
+
+                                <p>秦代雖然兩世而亡，但秦自建國以來五百多年所積累的歷史遺產極為豐富，後世的種種制度，如官僚、郡縣、爵等、宗教、文字、度量衡、法律等，無不有秦制的深深烙印。秦人的歷史、文化和制度，是今日文明的基礎之一。前事不忘，來者可資，這正是本次特展的初衷。</p>
+                            </div>
+                            <!-- <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                    </strong>
+                                </li>
+                            </ul> -->
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Product Modals -->
+    <div class="portfolio-modal modal fade" id="productModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+<!-- 產品介紹 -->
+            <!-- 松花石蟠螭硯 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="article">
+                                <span>清乾隆　西元1736-1795</span>
+                                <h3>松花石蟠螭硯<h3>
+                                <h5>硯長17.3公分，寬11.4公分，連座高4.8公分</h5>
+
+                                <p>座底有六雲首形足，座底中鐫方圓印各一，上方減地浮雕二行篆字：「乾隆清玩」，下方陰刻二行篆字：「奉三無私」。蓋面上方浮雕清高宗題蘆洲白鷺畫幅詩，字採行草書，曰：「穀紋搖漾水天秋，蘆葦蕭蕭颭晚洲。妙趣南華誰解得，祇應鷗鷺一群遊」，款：「乾隆丁巳夏五月題」，並雕方印二，一方陰刻二行篆體回文印：「惟精惟一」，一方減地淺浮雕：「乾隆宸翰」。蓋裡陰刻楷書銘：「出天漢，勝玉英，琢為研，純粹精，敕幾摛藻，屢省成。」並陰刻二行篆體方印：「永寶用之」。松花石產於東北「龍興之地」，清帝視之為珍物，民間不得隨意開採，並將松花石硯作為餽贈的禮物，或以籠絡、統御臣下，或以為國交禮物。此硯載錄入《西清硯譜》，故曾經清高宗御用。乾隆丁巳年乃乾隆二年，西元1737年。</p>
+                            </div>
+                            <button type="button" id="1" class="btn btn-default" data-dismiss="modal" onclick="clickCounter1()"><i class="glyphicon glyphicon-shopping-cart"></i> 放入購物車</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 玉螭紋觿 -->
+    <div class="portfolio-modal modal fade" id="productModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="article">
+                                <span>戰國　西元前475-221</span>
+                                <h3>玉螭紋觿<h3>
+                                <h5>長6.7公分，寬6.0公分，厚0.6公分</h5>
+
+                                <p>「螭」是龍的一種，幾分像虎。此件玉觿器面微泛褐紅，是傳世器特有的「盤紅」色澤，刻做成轉首側身形態，頭與軀體的銜接方式與本院藏的龍、鳳玉觿同，乃是戰國時代玉匠處理此類動物玉雕的一慣作法。</p>
+                            </div>
+                            <button type="button" id="2" class="btn btn-default" data-dismiss="modal" onclick="clickCounter2()"><i class="glyphicon glyphicon-shopping-cart"></i> 放入購物車</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="productModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <!-- 白陶鬶 -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="article">
+                                <span>新石器時代 大汶口文化　西元前4300-2500</span>
+                                <h3>白陶鬶<h3>
+                                <h5>高29.5公分，高21.6公分，最寬16.9公分</h5>
+
+                                <p>白陶是用含有大量的三氧化二鋁的泥土燒製的陶器。大汶口文化的陶藝家，用泥土塑造一隻抽象的，引頸鳴啼的鳥兒；然而，它卻是可以盛裝美酒的容器。</p>
+                            </div>
+                            <button type="button" id="3" class="btn btn-default" data-dismiss="modal" onclick="clickCounter3()"><i class="glyphicon glyphicon-shopping-cart"></i> 放入購物車</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--scanner -->
+    <div class="portfolio-modal modal fade" id="productcamera" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="row">
+            <div class="col-md-12">
+                <h1>Cheese QR</h1>
+                <p class="lead">掃描QR Code</p>
+                <p>--掃描中--</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="example" class="thumbnail embed-responsive embed-responsive-4by3"></div>
+                <div class="boxWrapper auto">
+                    <div id="hiddenImg"></div>
+                    <div id="qrContent" class="alert alert-info" role="alert">
+                        <p>No QR Code in sight.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form>
+                  <div class="form-group">
+                    <label for="videoSource">Select Camera</label>
+                    <select id="videoSource"><option selected>Default Camera</option></select>
+                  </div>
+                  <div class="form-group">
+                    <a class="btn btn-primary" onclick="go()">Go</a>
+                  </div>
+                </form>
+            </div>
+        </div>
+                </div>
+            </div>
+        <div class="container">
+        
+    </div>
+
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Cart Modals -->
+    <div class="portfolio-modal modal fade" id="cartModal1" tabindex="-1" role="dialog" aria-hidden="true" onload="clickCounter()">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>購物車</h3>
+                            
+                                <table class="table table-striped"id="add" style="table-layout:fixed">
+                                    <tr>
+                                        <td>商品名稱</td>
+                                        <td>單價</td>
+                                        <td>數量</td>
+                                        <td>小計</td>
+                                    </tr>
+                                </table>
+                                
+                                <div id="success"></div>
+                                <div class="row">
+                                    <div class="form-group col-xs-12">
+                                        <button class="btn btn-success btn-lg" id="show" onclick="showscrecher()" type="button">結帳</button>
+                                    </div>
+                                </div>
+                                </div>
+                                <!-- scratcher -->
+                                <div id="scratcher-box" style="display:none;">
+                                    <div>
+                                        <canvas id="scratcher1" width="200" height="200"></canvas>
+                                    </div>
+                                    <div id="scratcher3Pct">0%</div>
+                                </div>
+                                
+                                <!-- detail -->
+                                
+                            <form action="php/CreateOrder.php" method="GET" id="form" style="display:none">
+                                <div class="article">
+                                    <div class="row control-group">
+                                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                                            <label>姓名</label>
+                                            <input type="text" class="form-control" placeholder="姓名" id="name" required data-validation-required-message="Please enter your name." name="name">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                
+                                <div class="row control-group">
+                                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                                        <label>電話</label>
+                                        <input type="tel" class="form-control" placeholder="電話" id="phone" required data-validation-required-message="Please enter your phone number." name="phone">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            <br>
+                                <h3>結帳明細</h3>
+                                <table class="table table-striped"id="adddetail" style="table-layout:fixed">
+                                    <tr>
+                                        <td>商品名稱</td>
+                                        <td>單價</td>
+                                        <td>數量</td>
+                                        <td>小計</td>
+                                    </tr>
+                                </table>
+                                <div id="success"></div>
+                                <div class="row">
+                                    <div class="form-group col-xs-12">
+                                        <button type="submit" class="btn btn-success btn-lg" style="display:none;" id="check">確定</button>
+                                    </div>
+                                </div>
+                                </div>
+                                
+                            </form>
+    
+                           <!--  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+    <!-- scratcher JavaScript-->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/scratcher.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/museum.js"></script>
+
+</body>
+
+</html>
