@@ -1,0 +1,9 @@
+.article{
+    min-width:921px;
+    text-indent: 2em;
+    text-align: left;
+    margin: auto;
+}
+.article p{
+    font-size: 15px;
+}
