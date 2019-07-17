@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Shake.js</title>
+<style>
+body {
+    text-align: center;
+}
+
+#scratcher-box {
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 15px;
+}
+
+.scratcher-bottom-margin {
+  margin-bottom: 20px;
+}
+
+#scratcher-box canvas {
+  border: 1px solid gray;
+  margin: 0 10px 0px 10px;
+  cursor: crosshair;
+  cursor: url(img/cursor.png) 15 15, crosshair;
+}
+
+#scratcher3Pct {
+  font: sans-serif;
+  font-size: 0.8em;
+}
+</style>
+</head>
+
+<body>
+
+<h1>刮刮樂</h1>
+
+    <div data-role="main" class="ui-content">
+      <div id="scratcher-box" class="shadow1light">
+        <div>
+          <canvas id="scratcher1" class="demo-canvas shadow1light" width="200" height="200"></canvas>
+        </div>
+        <div id="scratcher3Pct" class="scratcher-margin-bottom">0%</div>
+        <input type="button" value="Reset" id="resetbutton">
+      </div>
+    </div>
+
+    <script src="js/scratcher.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
